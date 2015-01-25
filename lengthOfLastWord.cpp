@@ -1,3 +1,5 @@
+class Solution {
+public:
 int lengthOfLastWord(const char *s) {
 	int ret = 0;
 	int temp = 0;
@@ -24,3 +26,4 @@ int lengthOfLastWord(const char *s) {
 	}
 	return ret;
 }
+};
